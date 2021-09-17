@@ -1,0 +1,173 @@
+
+/* mobile layout: 320px */
+@media only screen and  (max-width: 767px)
+                          { 
+ 
+.container{
+	padding: 0 10%;
+}
+
+/*header section*/
+
+header {
+	display: none;
+}
+
+/*header section*/
+
+.banner .col .content h1{
+	font-size: 63px;
+}
+/*About section*/
+
+.about .row .col {
+	width: 100%;
+	float: none;
+	margin-bottom: 20px;
+
+}
+.about .row .col2{
+	width: 100%;
+	float: none;
+}
+.about .row .col2 h1{
+	font-size: 24px;
+	text-align: center;
+}
+
+.about .row .col2 p{
+	font-size: 14px;
+	text-align: center;
+	padding: 0 10px;
+
+}
+
+.about .row .col2 .skill h6{
+	font-size: 10px;
+}
+
+.about .container-fluit .row2 .col{
+	padding: 0 20px;
+}
+
+.about .container-fluit .row2 .col .content h1{
+	text-align: center;
+	font-size: 24px;
+
+}
+.about .container-fluit .row2 .col .content p{
+	text-align: center;
+	font-size: 16px;
+	width: 100%;
+	margin: auto;
+	line-height: 23px;
+
+
+}
+
+/*service section*/
+.services .row .col h1{
+	font-size: 24px;
+}
+.services .row .col p{
+	width: 100%;
+	margin: auto;
+	font-size: 16px;
+	line-height: 23px;
+
+
+}
+.services .row2 .col{
+	width: 100%;
+	float: none;
+	margin-bottom: 40px;
+}
+
+.services .row2 .col p{
+	width: 100%;
+	margin: auto;
+}
+
+/*portfolio section*/
+.portfolio .col h1{
+	font-size: 24px;
+}
+
+.portfolio .row2 .button ul li{
+	margin-bottom: 40px;
+	display: block;
+}
+.portfolio .row3 .col{
+	width: 100%;
+}
+/*claient section*/
+
+.reviews .text h1{
+	font-size: 24px;
+	text-align: center;
+}
+
+.reviews .text p{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	font-size: 16px;
+	line-height: 23px;
+}
+.reviews .row2 .col p{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	font-size: 16px;
+	line-height: 23px;
+
+}
+.reviews .row3 .button ul li a{
+	width: 10px;
+	height: 10px;
+}
+
+.claient .imgs{
+	display: block;
+}
+.claient .imgs img{
+		margin-bottom: 50px;
+}
+
+/*contact section*/
+.contact .row .col h1{
+	font-size: 24px;
+
+}
+
+.contact .row2 .col1{
+	width: 100%;
+	float: none;
+}
+.contact .row2 .col2{
+	width: 100%;
+	float: none;
+
+}
+.contact .row2 .col2 .content{
+	margin-top: 40px;
+	padding-left: 0;
+
+}
+/*contact section*/
+.footer .col{
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+
+.footer .row .col2{
+	width: 100%;
+	float: none;
+	text-align: center;
+
+}
+
+
+
+}

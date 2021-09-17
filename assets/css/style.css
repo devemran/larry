@@ -1,0 +1,722 @@
+, ::after, ::before{
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	box-sizing: border-box; 
+}
+*{
+	padding: 0;
+	margin: 0;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family:montserrat;
+}
+p,li,span,a,button,input, textarea{
+	font-family:roboto;
+}
+ 
+ @font-face{
+ 	src:url(../fonts/Montserrat-Bold.ttf);
+ 	font-family: montserrat;
+ }
+
+ @font-face{
+    src:url(../fonts/Roboto-Regular.ttf);
+    font-family: roboto;
+ }
+ .container{
+	max-width: 1140px;
+	margin: 0px auto;
+	padding: 0 15px;
+}
+
+.container-fluid  {
+	max-width: 100%;
+	padding: 0 15px;
+}
+
+body{
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+.btn {
+	border: 2px solid #CC4277;
+	display: inline-block;
+	padding: 17px 50px;
+	background-color: #CC4277;
+	border-radius: 0px;
+	color: #fff;
+	text-decoration: none;
+	font-weight: 500;
+	transition: 0.3s;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.btn:hover{
+	background-color: transparent;
+	color: #CC4277;
+	border-color: #CC4277;
+
+}
+img{
+	max-width: 100%;
+}
+
+/*================================
+Header section start
+==================================*/
+
+header{
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color:#000;
+	z-index: 99999999999;
+	padding: 20px 0;
+}
+
+header .row .col{
+	float: left;
+	width: 30%;
+
+}
+
+header .row .col2{
+	width: 70%;
+	float: left;
+}
+
+header .row .col2 .manu {
+	text-align: right;
+
+}
+header .row .col2 .manu ul {
+	padding-top: 10px;
+}
+header .row .col2 .manu ul li{
+	display: inline-block;
+	font-weight: 400;
+	font-size: 14px;
+	margin-right: 40px;
+	text-transform: uppercase;
+
+}
+header .row .col2 .manu ul li a{
+	color: #fff;
+	text-decoration: none;
+	transition: 0.3s;
+}
+header .row .col2 .manu ul li a:hover{
+	color: #CC4277;
+}
+header .row .col2 .manu ul li a.active{
+	color: #CC4277;
+}
+/*================================
+Header section end
+==================================*/
+
+/*================================
+Banner section start
+==================================*/
+.banner {
+	background-image: url(../imgs/masthead.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 150px 0;
+	position: relative;
+}
+
+.banner:after {
+	content: "";
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #000;
+	opacity: 0.5;
+}
+
+.banner .row .content {
+	position: relative;
+	z-index: 999999;
+	color: #fff;
+}
+
+.banner .row .content h1{
+	font-size: 76px;
+	font-weight: 700;
+}
+.banner .row .content p{
+	margin: 20px 0;
+	font-size: 21px;
+}
+.banner .row .content a{
+	margin-top:20px; 
+}
+
+/*================================
+Banner section end
+==================================*/
+
+/*================================
+About section start
+==================================*/
+.about{
+	margin: 105px 0;
+}
+.about .row{
+	overflow: hidden;
+}
+.about .row .col{
+	width: 48%;
+	float: left;
+	margin-right: 4%;
+} 
+.about .row .col2{
+	width: 48%;
+	float: left;
+}
+.about .row .col2 h1{
+	margin-bottom: 20px;
+
+}
+.about .row .col2 h6{
+	margin-top: 60px;
+	letter-spacing: 2px;
+	margin-bottom: 10px;
+}
+.about .row .col2 p{
+	color: #888;
+	margin-bottom: 20px;
+	line-height: 30px;
+
+}
+.about .row .col2 .progress{
+	width: 100%;
+	height: 8px;
+	background-color: #F5F5F5;
+	position: relative;
+
+}
+.about .row .col2 .progress .desgin{
+	position: absolute;
+	width: 80%;
+	height: 100%;
+	background-color: #CC4277;
+}
+
+.about .row .col2 .progress .desgin:before {
+	content: "80%";
+	position: absolute;
+	top: -25px;
+	right: 0;
+	text-align: center;
+}
+.about .row .col2 .progress{
+	width: 100%;
+	height: 8px;
+	background-color: #F5F5F5;
+	position: relative;
+
+}
+.about .row .col2 .progress .Development{
+	position: absolute;
+	width: 55%;
+	height: 100%;
+	background-color: #CC4277;
+}
+
+.about .row .col2 .progress .Development:before {
+	content: "55%";
+	position: absolute;
+	top: -25px;
+	right: 0;
+	text-align: center;
+}
+.about .row .col2 .progress{
+	width: 100%;
+	height: 8px;
+	background-color: #F5F5F5;
+	position: relative;
+
+}
+.about .row .col2 .progress .seo{
+	position: absolute;
+	width: 75%;
+	height: 100%;
+	background-color: #CC4277;
+}
+
+.about .row .col2 .progress .seo:before {
+	content: "75%";
+	position: absolute;
+	top: -25px;
+	right: 0;
+	text-align: center;
+}
+.about .row2{
+	overflow: hidden;
+	margin: 100px 0;
+	background-color: #F7F7F7;
+}
+
+
+.about .row2 .col{
+	text-align: center;
+} 
+.about .row2 .col .content{
+	padding: 100px 0;
+}
+.about .row2 .col .content h1{
+	word-spacing: 1px;
+	letter-spacing: 1px;
+	color: #000;
+	margin-bottom: 30px;
+}
+.about .row2 .col .content p{
+	color: #888;
+	font-size: 21px;
+	width: 750px;
+	margin: auto;
+}
+.about .row2 .col .content a{
+	margin-top: 40px;
+
+}
+.about .row2 .col .content a:hover{
+     background-color:  #fff;
+	 color: #CC4277;
+	 border-color: #CC4277;
+
+}
+/*================================
+About section end
+=================================*/
+
+/*================================
+services section start
+=================================*/
+
+.services .row{
+	overflow: hidden;
+}
+
+.services .content{
+	padding: 20px 0;
+
+}
+
+.services  .col{
+	text-align: center;
+
+}
+.services .content h1{
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.services .content p{
+	color: #888;
+	width:750px;
+	margin: auto;
+	font-size: 21px; 
+	line-height: 35px;
+}
+.services .row2{
+	overflow: hidden;
+	margin-top: 100px;
+}
+.services .row2:last-child{
+	margin-top: 80px;
+}
+
+.services .row2 .col{
+	width: 32%;
+	float: left;
+}
+.services .row2 .col .icon{
+	color: #CC4277;
+	font-size: 40px;
+	margin-bottom: 20px;
+}
+.services .row2 .col h4{
+	font-size: 15px;
+	color: #000;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.services .row2 .col p{
+	color: #888;
+	width: 300px;
+	margin: auto;
+	line-height: 30px;
+}
+
+/*================================
+services section end
+=================================*/
+
+/*================================
+Portfolio section start
+=================================*/
+
+.portfolio{
+	margin-top: 100px;
+	background-color: #F7F7F7;
+	padding: 50px 0; 
+}
+
+.portfolio .col h1{
+	font-size: 35px;
+	margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.portfolio .row2 .col{
+	text-align: center;
+	margin-bottom: 40px;
+
+}
+.portfolio .row2 .button ul {
+	
+	list-style: none;
+}
+.portfolio .row2 .button ul li{
+	display: inline-block;
+	margin-right: 5px;
+	text-transform: uppercase;
+	
+	font-size: 13px;
+
+}
+.portfolio .row2 .button ul li a{
+	text-decoration: none;
+	color: #000;
+	transition: 0.3s;
+	padding: 12px 20px;
+}
+.portfolio .row2 .button ul li a:hover{
+	color: #CC4277;
+}
+.portfolio .row2 .button ul li .active{
+	border: 2px solid #000;
+}
+
+
+.portfolio .row3  .content {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	padding: 160px 0;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	
+}
+.portfolio .row3  .content:after{
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #CC4277;
+	opacity: 0;
+	transition: 0.3s;
+
+}
+.portfolio .row3  .content:hover::after{
+	opacity: 0.8;
+}
+
+.portfolio .row3  .content .text {
+	opacity: 0; 
+}
+
+.portfolio .row3  .content:hover .text {
+	opacity: 1;
+}
+.portfolio .row3  .content h1,p{
+	position: relative;
+	z-index: 99999;
+	color: #fff;
+
+}
+
+
+
+
+.portfolio .row3{
+	overflow: hidden;
+}
+
+.portfolio .row3 .col{
+	width: 49%;
+	float: left;
+	margin-right: 2%;
+	margin-bottom: 20px;
+}
+
+.portfolio .row3 .col:last-child {
+	margin-right: 0;
+}
+
+/*================================
+Portfolio section end
+=================================*/
+
+/*================================
+Reviews section start
+=================================*/
+
+.reviews .text{
+	text-align: center;
+	padding: 120px 0;
+
+}
+.reviews .text h1{
+	font-size: 35px;
+	color: #000;
+	margin-bottom: 40px;
+
+}
+.reviews .text p{
+	color: #888;
+	font-size: 21px;
+	line-height: 36px;
+	width: 750px;
+	margin: auto;
+}
+
+.reviews .row2{
+	text-align: center;
+
+}
+.reviews .row2 img{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	background-size: cover;
+	margin-bottom: 30px;
+}
+.reviews .row2 h1{
+	font-size: 19px;
+	margin-bottom: 25px;
+}
+.reviews .row2 p{
+	color: #888;
+	width: 530px;
+	margin: auto;
+	font-size: 17px;
+	line-height: 25px;
+}
+
+.reviews .row3{
+	margin: 60px 0px;
+}
+.reviews .row3 .col  {
+	text-align: center;
+
+}
+
+
+.reviews .row3 .button ul{
+	list-style: none;
+
+}
+.reviews .row3 .button ul li{
+	display: inline-block;
+}
+
+.reviews .row3 .button ul li a{
+	width: 15px;
+	height: 15px;
+	background-color:#BBBBBB;
+	border-radius: 50%;
+	margin-right: 8px;
+	display: inline-block;
+	transition: 0.3s;
+}
+.reviews .row3 .button ul li a:hover{
+	background-color: #CC4277;
+}
+
+/*================================
+Reviews section end
+=================================*/
+
+/*================================
+Claient section start
+=================================*/
+
+.claient{
+	background-color: #F7F7F7;
+}
+
+.claient .imgs {
+	padding: 50px 0;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.claient .imgs img{
+
+}
+
+/*================================
+Claient section end
+=================================*/
+
+/*================================
+Contact section start
+=================================*/
+.contact {
+	padding:100px 0;
+}
+.contact .row .col{
+	text-align: center;
+
+}
+.contact .row .col h1{
+	font-size: 35px;
+	color: #000;
+	margin-bottom: 50px;
+	margin-top: 20px;
+}
+
+.contact .row2 {
+	overflow: hidden;
+}
+
+.contact .row2 .col1 {
+	width: 60%;
+	float: left;
+}
+
+.contact .row2 .col2 {
+	width: 30%;
+	float: left;
+}
+
+.contact .row2 .col1 .width-50 {
+	width: 49%;
+	float: left;
+	margin-right: 2%;
+	overflow: hidden;
+}
+
+.contact .row2 .col1 .mr0{
+	margin-right: 0;
+}
+
+.contact .row2 .col1 .form-group input{
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.contact .row2 .col1 .form-group input::placeholder, 
+textarea::placeholder {
+	font-size: 18px;
+}
+
+
+.contact .row2 .col1 .form-group textarea{
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid #ddd;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.contact .row2 .col1 .form-group textarea:focus-visible, 
+.contact .row2 .col1 .form-group input:focus-visible {
+	outline: none;
+	border-color: #CC4277;
+}
+.contact .row2 .col1 form  {
+	overflow: hidden;
+}
+.contact .row2 .col1 form button {
+	float: right;
+}
+
+.contact .row2 .col2 .content {
+    padding-left: 80px;
+    margin-bottom: 46px;
+    overflow: hidden;
+}
+.contact .row2 .col2 .content .icon{
+ 	float: left;
+ 	font-size: 25px;
+ 	color: #CC4277;
+ 	width: 20%;
+}
+.contact .row2 .col2 .content .text{
+ 	width: 80%;
+ 	float: left;
+}
+.contact .row2 .col2 .content .text h3{
+	font-size: 17px;
+	font-weight: 300;
+}
+.contact .row2 .col2 .content .text p{
+	color: #888;
+}
+
+/*================================
+Contact section end
+=================================*/
+
+/*================================
+Footer section start
+=================================*/
+
+.footer{
+	background-color: #000;
+	overflow: hidden;
+}
+.footer .col{
+	width: 50%;
+	float: left;
+}
+
+.footer .icon{
+	padding: 30px 0;
+}
+
+.footer .icon ul li{
+	list-style: none;
+	display: inline-block;
+}
+.footer .icon ul li a{
+	margin-right: 20px;
+	font-size:20px; 
+	color: #fff;
+	transition: 0.3s;
+}
+.footer .icon ul li a:hover{
+	color: #CC4277;
+}
+
+.footer .row .col2  {
+	width: 50%;
+	text-align: right;
+	float: left;
+	padding: 30px 0;
+}
+.footer .row .col2 p{
+	color: #888;
+}
+.footer .row .col2 p a{
+	color: #CC4277;
+}
