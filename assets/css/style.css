@@ -720,3 +720,21 @@ Footer section start
 .footer .row .col2 p a{
 	color: #CC4277;
 }
+
+
+
+/*Click to top*/
+.top {
+	background-color: #CC4277;
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	color: #fff;
+	padding: 5px;
+	position: fixed;
+	right: 10px;
+	bottom: 20px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}

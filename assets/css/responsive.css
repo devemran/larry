@@ -9,9 +9,33 @@
 
 /*header section*/
 
-header {
+header .row .col {
+	width: 100%;
+	float: left;
+	
+}
+header .row .col2 .manu{
 	display: none;
 }
+header .row .col2 .manu ul li{
+	display: block;
+	text-align: left; 
+	margin-bottom: 10px;
+}
+header .col a{
+	width: 50%;
+	float: left;
+	display: block;
+}
+header .toggle-bar {
+	width: 50%;
+	text-align: right;
+	display: block;
+	color: #fff;
+	float: left;
+	font-size: 24px;
+}
+
 
 /*header section*/
 
@@ -22,10 +46,11 @@ header {
 
 .about .row .col {
 	width: 100%;
-	float: none;
+	float: left;
 	margin-bottom: 20px;
 
 }
+
 .about .row .col2{
 	width: 100%;
 	float: none;
